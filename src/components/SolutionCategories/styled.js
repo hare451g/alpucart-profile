@@ -14,14 +14,12 @@ const SolutionCategoriesContainer = styled.div`
     flex-direction: row;
     height: 100vh;
     background: url('${BgSolution}') no-repeat;
+    background-size: 100%;
   }
   
-
   flex-direction: row;
-
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-color: #303030;
   backdrop-filter: blur(10px);
   filter: alpha(opacity=40);
@@ -44,6 +42,9 @@ const SolutionSection = styled.div`
   @media ${mediaQuery.mobileS} {
     padding: 1rem 0;
     margin: 1rem 0;
+  }
+  @media ${mediaQuery.laptop} {
+    margin: 1rem 2rem;
   }
 `;
 

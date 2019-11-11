@@ -14,6 +14,9 @@ const SectionContainer = styled.section`
   justify-content: center;
   align-items: start;
   height: 100%;
+  @media ${mediaQuery.laptop} {
+    height: 100vh;
+  }
   background-color: #0d0d0d;
 `;
 

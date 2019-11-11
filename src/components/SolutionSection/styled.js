@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import BgSolution from '../../assets/images/bg-solution.jpeg';
+import mediaQuery from '../../constants/mediaQueries';
 
 const SolutionCardDeck = styled.div`
   display: flex;
@@ -13,11 +13,11 @@ const SectionContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  height: 100vh;
+  height: 100%;
   background-color: #0d0d0d;
 `;
 
-const SolutionWording = styled.p`
+const SolutionWording = styled.div`
   color: #2eab53;
   justify-content: center;
   align-items: center;
